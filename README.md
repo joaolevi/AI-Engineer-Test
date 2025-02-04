@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Crie um servidor em Python com um endpoint que recebe uma pergunta e classifica a pergunta em diferentes tipos. O endpoint deve ser capaz de identificar o tipo da pergunta com base no seguinte critério:
+Crie um servidor em Python com um endpoint que recebe uma pergunta e classifica ela em diferentes tipos. O endpoint deve ser capaz de identificar o tipo da pergunta com base no seguinte critério:
 
 - **VEHICLE_COMPATIBILITY**: dúvida de compatibilidade com veículo.
 - **PRODUCT_SPECIFICATION**: dúvida sobre a ficha técnica de um produto.
@@ -18,6 +18,6 @@ Crie um servidor em Python com um endpoint que recebe uma pergunta e classifica 
 
 ### Objetivo
 
-A avaliação será focada no **processo de validação das perguntas** e na implementação do código em Python. Além disso, será fornecida uma lista com exemplos de perguntas e as classificações corretas para ajudar na criação do seu prompt.
+A avaliação será focada no **processo de validação das perguntas** e na implementação do código em Python. Além disso, será fornecida uma lista com exemplos de perguntas e as classificações corretas para ajudar na criação do prompt.
 
 Mesmo que não seja possível criar um prompt 100% assertivo, você pode incluir observações sobre possíveis melhorias no processo de validação.
