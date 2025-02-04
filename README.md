@@ -20,4 +20,4 @@ Crie um servidor em Python com um endpoint que recebe uma pergunta e classifica 
 
 A avaliação será focada no **processo de validação das perguntas** e na implementação do código em Python. Além disso, será fornecida uma lista com exemplos de perguntas e as classificações corretas para ajudar na criação do seu prompt.
 
-Embora não seja possível criar um prompt 100% assertivo, você pode incluir observações sobre possíveis melhorias no processo de validação.
+Mesmo que não seja possível criar um prompt 100% assertivo, você pode incluir observações sobre possíveis melhorias no processo de validação.
