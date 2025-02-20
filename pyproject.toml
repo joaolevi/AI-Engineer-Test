@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ai-engineer-test"
+version = "0.1.0"
+description = "This is a project to AI Engineer test"
+authors = ["Joao Lima <joaolevi777@gmail.com>"]
+license = ""
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.8"
+langchain-openai = "^0.3.6"
+langchain = "^0.3.19"
+langchain-community = "^0.3.18"
+pandas = "^2.2.3"
+uvicorn = "^0.34.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
