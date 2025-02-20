@@ -3,6 +3,7 @@ from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 import logging
 import os
+import json
 
 """App imports"""
 from app.settings import init_settings
@@ -19,10 +20,9 @@ class QuestionRequest(BaseModel):
 
 def classify_question_llm(question: str):
     response = llm.invoke(prompt + "\n" + question)
-    logger.info(response)
-    response = response.strip("\n")
-    return response
-
+    # logger.info(response)
+    return response.content.strip('`').strip('\n')
+    
 @r.post("/chatbot")
 async def classify_question_endpoint(request: QuestionRequest):
     logger.info(f"Recebendo pergunta: {request.question}")

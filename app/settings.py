@@ -9,9 +9,9 @@ def init_settings():
 
     match model_provider:
         case "openai":
-            from langchain_openai import OpenAI
+            from langchain_openai import ChatOpenAI
             
-            llm = OpenAI(
+            llm = ChatOpenAI(
                 api_key=os.getenv("OPENAI_API_KEY"),
                 model = os.getenv("MODEL", "gpt-3.5-turbo"),
                 temperature=float(os.getenv("TEMPERATURE", "0.5")),
